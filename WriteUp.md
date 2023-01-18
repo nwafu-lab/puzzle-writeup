@@ -128,13 +128,14 @@ Zip Password 3164b522e7466837af64aceefe9766e9
 
 解密的方法也很简单，导入密钥，解密即可。
 
-``$ gpg --import pri.key`
-`gpg: key 06A77D1829D6D191: "nwafu-lab <admin@nwafu.studio>" not changed`
-`gpg: key 06A77D1829D6D191: secret key imported`
-`gpg: Total number processed: 1`
-`gpg:              unchanged: 1`
-`gpg:       secret keys read: 1`
-`gpg:   secret keys imported: 1`
+> $ gpg --import pri.key
+> gpg: key 06A77D1829D6D191: "nwafu-lab <admin@nwafu.studio>" not changed
+> gpg: key 06A77D1829D6D191: secret key imported
+> gpg: Total number processed: 1
+> gpg:              unchanged: 1
+> gpg:       secret keys read: 1
+> gpg:   secret keys imported: 1
+>
 
 > $ gpg -o ans.txt -d nwafu-lab.txt
 >
